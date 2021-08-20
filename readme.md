@@ -16,4 +16,11 @@
 
 + 用法
 
-    将image2base64与图片、MarkDown文件放在同一个文件夹内，MarkDown文件中图片按照上文的方法使用，最后运行./image2base64就会在MarkDown文件结尾加入对应图片的base64编码，例如：`[1.png]:data:image/png;base6‵4,iVBORw0......`
+    将image2base64与图片、MarkDown文件放在同一个文件夹内，MarkDown文件中图片按照上文的方法使用，最后运行./image2base64就会在MarkDown文件结尾加入对应图片的base64编码，例如：
+    
+    ```
+    python image2base64.py readme.md
+
+    数据生成样式
+    [1.png]:data:image/png;base6‵4,iVBORw0......
+    ```
